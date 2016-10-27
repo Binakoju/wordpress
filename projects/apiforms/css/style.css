@@ -1,0 +1,61 @@
+
+html{
+	font-size: 12px;
+}
+a:active,
+a:hover {
+outline: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+h1,h2,h3,h4,h5,span,a, ul, li{
+	padding: 0px;
+	margin:0px;
+}
+.container{
+	max-width: 960px;
+}
+.schoolform h1{
+	text-align: center;
+	color: #fff;
+	background-color: #c41230;
+	padding: 5px 0px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 10px;
+	font-size: 26px;
+}
+.schoolform h2{
+	text-align: center;
+	padding:20px 0px;
+	font-size: 30px;
+	color: #999999;
+}
+.day, .month, .year{
+	font-weight: normal;
+}
+.form-horizontal .control-label{
+	color: #666666;
+}
+.btn{
+	background-color: #001740;
+}
+.btn:hover{
+	opacity: 0.95;
+}
+.schoolform input,.schoolform select, .btn{
+	border-radius: 0px;
+}
+.calicon{
+	position: absolute;
+	right: 18px;
+	top: 5px;
+	font-size: 24px;
+	color: #999999;
+}
